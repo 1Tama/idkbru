@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700');
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+    font-size: 40px;
+    z-index: 2;
+    user-select: none;
+}
+/*
+.changingbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+    background-image: url("BACKGROUNDDDDD.png");  
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    transform: translateY(20%)
+    I wanted to make it change whenever you hover on bmw or amg... but i guess chatgpt cant code...
+}
+*/
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+    padding-top: 5vw;
+    z-index: 1;
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 65vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    z-index: 1;
+  }
+
+.bmw {
+
+}
+
+.amg {
+
+}
