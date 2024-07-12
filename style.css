@@ -8,16 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0rem;
     overflow: hidden;
+    overflow-x: hidden;
     max-width: 100%;
     max-height: 100%;
 }
-
-html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
 
   
 .title {
