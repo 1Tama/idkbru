@@ -21,6 +21,7 @@ body {
     font-size: 40px;
     z-index: 2;
     user-select: none;
+    overflow-x: hidden;
 }
 /*
 .changingbg {
@@ -51,6 +52,7 @@ body {
     user-select: none; /* -- Prevent image highlighting -- */
     padding-top: 5vw;
     z-index: 1;
+    overflow-x: hidden;
   }
   
   #image-track > .image {
@@ -59,6 +61,7 @@ body {
     object-fit: cover;
     object-position: 100% center;
     z-index: 1;
+    overflow-x: hidden;
   }
 
 .bmw {
