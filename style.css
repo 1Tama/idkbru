@@ -12,6 +12,14 @@ body {
     max-height: 100%;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+  
 .title {
     display: flex;
     justify-content: center;
