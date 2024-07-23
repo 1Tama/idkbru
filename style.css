@@ -42,6 +42,13 @@ body {
 }
 */
 
+@media(max-width: 1000px) {
+  body {
+    align-items: flex-start;  
+    overflow: auto;
+  }
+}
+
 #image-track {
     display: flex;
     gap: 4vmin;
@@ -62,6 +69,7 @@ body {
     object-position: 100% center;
     z-index: 1;
     overflow-x: hidden;
+    border-radius: 5px;
   }
 
 .bmw {
